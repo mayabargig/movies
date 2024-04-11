@@ -1,0 +1,92 @@
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-content {
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.team {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.team-member {
+    flex-basis: calc(33.33% - 20px);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.team-member > img {
+    width: 15rem;
+    border-radius: 50%;
+}
+
+.contact {
+    margin-bottom: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    border: solid 2px black;
+    max-width: 16rem;
+    padding: 0.8rem;
+    display: flex;
+    flex-direction: column;
+
+}
+
+label, input, textarea {
+    display: block;
+    margin-bottom: 5px;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+@media (max-width: 768px) {
+    main {
+        padding: 10px;
+    }
+    
+    .team-member {
+        flex-basis: calc(50% - 10px);
+    }
+}
+
+#massage{
+    height: 20px;
+}
