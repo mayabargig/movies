@@ -95,7 +95,7 @@ footer {
 
 .navbar {
     background-color: #555353;
-    padding: 10px 0;
+    padding: 5px 0;
     max-height: 3rem;
     justify-content: center;
     align-items: center;
@@ -104,12 +104,13 @@ footer {
 .navbar ul {
     list-style: none;
     padding: 0;
+    margin: 0%;
     display: flex;
     justify-content: center;
 }
 
 .navbar li {
-    margin: 0 15px;
+    margin: 5px 0;
 }
 
 .navbar a {
@@ -153,3 +154,25 @@ p {
     color: #888; 
 }
 
+
+@media (max-width: 600px) {
+    .navbar {
+        padding: 5px 0;
+        max-height: 3rem;
+        font-size: 16px;
+    }
+
+    .navbar ul {
+        align-items: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    .navbar li {
+        margin: 5px 0;
+    }
+
+    .navbar a {
+        font-size: 16px;
+    }
+}
